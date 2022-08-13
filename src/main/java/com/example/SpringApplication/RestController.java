@@ -16,5 +16,11 @@ public class RestController {
 	
 		return "Ravi Shankar";
 	}
+	
+	@GetMapping("hello")
+	public String sayHello() {
+	
+		return "Hello";
+	}
 
 }
